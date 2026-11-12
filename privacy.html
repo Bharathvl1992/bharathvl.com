@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy | Bharath V L</title>
+  <meta name="description" content="What this site collects about visitors, and what it does not.">
+  <meta name="theme-color" content="#05060a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2305060a'/%3E%3Cpath d='M32 10 52 22v20L32 54 12 42V22z' fill='none' stroke='%23ffc27a' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='6' fill='%237ae0ff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .legal { max-width: 760px; padding-top: clamp(48px, 9vw, 110px); padding-bottom: 40px; }
+    .legal__back { display: inline-block; font: 500 12px var(--mono); letter-spacing: 0.12em; color: var(--muted); margin-bottom: 44px; }
+    .legal__back:hover, .legal a.inline:hover { color: var(--gold); }
+    .legal h3 { font: 600 18px var(--display); margin-top: 38px; }
+    .legal .prose p { margin-top: 12px; }
+    .legal a.inline { border-bottom: 1px solid var(--line); }
+    .legal .foot { margin-top: 56px; }
+  </style>
+</head>
+<body>
+  <main class="wrap legal">
+    <a class="legal__back" href="./">← Back to the site</a>
+    <p class="eyebrow">Privacy</p>
+    <h1 style="font: 600 clamp(28px, 4vw, 52px)/1.08 var(--display); letter-spacing: -0.025em;">What this site collects</h1>
+
+    <div class="prose">
+      <p>This is a personal portfolio. It has no accounts, no forms, no ads and no cookies.</p>
+
+      <h3>Visit statistics</h3>
+      <p>I use Cloudflare Web Analytics to see how many people visit, which country they are in, what kind of device they use and which site referred them. It does not use cookies and does not identify or follow individual visitors.</p>
+
+      <h3>Fonts, scripts and hosting</h3>
+      <p>The site is hosted on GitHub Pages. Fonts are loaded from Google Fonts, and scripts and map data from jsDelivr and cdnjs. As with any web request, these providers receive your IP address in order to deliver the files.</p>
+
+      <h3>If you contact me</h3>
+      <p>If you email me, I use your details only to reply to you. I do not sell or share them.</p>
+
+      <h3>Questions</h3>
+      <p>Write to <a class="inline" id="mail"></a> and I will be glad to help.</p>
+    </div>
+
+    <footer class="foot">
+      <span id="name"></span>
+      <span>Last updated November 2026</span>
+    </footer>
+  </main>
+
+  <script type="module">
+    import { content as C } from "./js/content.js";
+    const mail = document.getElementById("mail");
+    mail.textContent = C.email;
+    mail.href = `mailto:${C.email}`;
+    document.getElementById("name").textContent = `© ${new Date().getFullYear()} ${C.name}`;
+  </script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "16c8f1ae300e4543a3717c429df5a711"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

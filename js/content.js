@@ -25,7 +25,7 @@ export const content = {
     { value: 9, suffix: "+", label: "Years in enterprise tech" },
     { value: 25, suffix: "+", label: "Platform features delivered" },
     { value: 10, suffix: "", label: "Enterprise retail accounts" },
-    { prefix: "$", value: 980, suffix: "K", label: "Billable revenue delivered" },
+    { prefix: "$", value: 1, suffix: "M+", label: "Billable revenue delivered" },
   ],
 
   about: {

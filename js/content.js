@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────
 //  ALL SITE CONTENT LIVES HERE. Edit this file, nothing else.
-//  Anything marked TODO is a placeholder — replace before launch,
+//  Anything marked TODO is a placeholder: replace before launch,
 //  then set `draft: false` to remove the "draft" ribbon.
 // ─────────────────────────────────────────────────────────────
 export const content = {
@@ -10,7 +10,7 @@ export const content = {
   initials: "BVL",
   role: "Supply Chain AI Solution Lead",
   tagline:
-    "I help enterprise retailers put AI agents to work in their supply chains — from finding the right use case to shipping workflows people actually use.",
+    "I help enterprise retailers put AI agents to work in their supply chains, from finding the right use case to shipping workflows people actually use.",
   availability: "Open to new roles",
   location: "Bengaluru, India",
   email: "Bharathvl92@gmail.com",
@@ -31,7 +31,7 @@ export const content = {
   about: {
     heading: "The 30-second version",
     paragraphs: [
-      "Supply chain technology and AI solution leader with 9+ years across enterprise implementation, product ownership and software engineering — including 5+ years at Manhattan Associates on Manhattan Active Omni, a supply chain commerce and order management platform.",
+      "Supply chain technology and AI solution leader with 9+ years across enterprise implementation, product ownership and software engineering, including 5+ years at Manhattan Associates on Manhattan Active Omni, a supply chain commerce and order management platform.",
       "I sit between business and technology: I work with process owners to find where AI genuinely helps, define scope and success metrics, then build the agent workflows myself and track the operational impact.",
     ],
     highlights: [
@@ -43,23 +43,23 @@ export const content = {
 
   career: [
     {
-      period: "May 2021 — Present",
+      period: "May 2021 - Present",
       company: "Manhattan Associates",
       role: "Lead Consultant",
       location: "Bengaluru, India",
       summary:
         "Leading AI agent initiatives and Manhattan Active Omni enhancements for enterprise retail clients, across order orchestration, inventory, fulfilment, returns, payments and tax.",
       wins: [
-        "Drive AI agent initiatives end to end — use-case discovery, scope and success metrics, then hands-on agent workflows that semi-automate order-management tasks",
+        "Drive AI agent initiatives end to end: use-case discovery, scope and success metrics, then hands-on agent workflows that semi-automate order-management tasks",
         "Created Agent Foundry, a marketplace where enterprise customers discover and evaluate agents matched to their business needs",
         "Lead Glean AI assistant adoption via the mAIn Council: prioritised use cases by role, quantified rollout value and presented findings to leadership",
-        "Delivered 25+ platform features over five years across a portfolio of 10 retail accounts, 3–4 as concurrent lead",
+        "Delivered 25+ platform features over five years across a portfolio of 10 retail accounts, 3 to 4 as concurrent lead",
         "Integrated the platform with Adyen, Accertify and CyberSource; improved refund-eligibility handling and designed deposit and partial-cancellation enhancements",
       ],
       stack: ["AI Agents", "Manhattan Active Omni", "Glean", "Adyen", "Accertify", "CyberSource"],
     },
     {
-      period: "Oct 2019 — Oct 2020",
+      period: "Oct 2019 - Oct 2020",
       company: "Diversant, LLC",
       role: "Analyst",
       location: "Newark, Delaware, USA",
@@ -72,13 +72,13 @@ export const content = {
       stack: ["SQL", "Oracle", "Cassandra", "Postman", "SOAP UI", "Unix"],
     },
     {
-      period: "Jul 2014 — Jun 2017",
+      period: "Jul 2014 - Jun 2017",
       company: "Accenture",
       role: "Software Engineer",
       location: "Bengaluru, India",
       summary: "Requirement gathering, functional testing and automation for global banking clients including Bank of America and Goldman Sachs. Joined as Associate Software Engineer.",
       wins: [
-        "Built interactive Tableau dashboards — heat maps, forecasts, funnel charts — that turned business data into decision-ready insight",
+        "Built interactive Tableau dashboards (heat maps, forecasts, funnel charts) that turned business data into decision-ready insight",
         "Worked with stakeholders to define KPIs and track the value delivered",
       ],
       stack: ["Tableau", "Test Automation", "Banking"],
@@ -103,7 +103,7 @@ export const content = {
       year: "2026",
       role: "Founder",
       blurb:
-        "The company I founded for the Google Cloud AI Builder Cup 2026. Its product is a domain-neutral adaptive-reasoning runtime for AI agents — the model proposes, deterministic policy decides — with a retail pack for custom team apparel as its first domain.",
+        "The company I founded for the Google Cloud AI Builder Cup 2026. Its product is a domain-neutral adaptive-reasoning runtime for AI agents, where the model proposes and deterministic policy decides, with a retail pack for custom team apparel as its first domain.",
       tags: ["Gemini", "Cloud Run", "Firestore", "Python"],
       link: "",
     },
@@ -120,16 +120,16 @@ export const content = {
   ],
 
   recognition: [
-    { title: "Unsung Hero Award — Focus on the Customer", meta: "Manhattan Associates · Jul 2025" },
+    { title: "Unsung Hero Award: Focus on the Customer", meta: "Manhattan Associates · Jul 2025" },
     { title: "Team Award", meta: "Manhattan Associates · Apr 2025 & Apr 2023" },
     { title: "Star of the Quarter", meta: "Manhattan Associates · Jul 2023" },
     { title: "Above & Beyond", meta: "Manhattan Associates · Jan 2023" },
   ],
 
   education: [
-    { title: "MS, Business Analytics", meta: "Hult International Business School, San Francisco · 2018 – 2019" },
-    { title: "MS, International Business", meta: "Hult International Business School, San Francisco · 2017 – 2018" },
-    { title: "Bachelor’s, Computer Engineering", meta: "B.M.S. College of Engineering, Bengaluru · 2010 – 2014" },
+    { title: "MS, Business Analytics", meta: "Hult International Business School, San Francisco · 2018 - 2019" },
+    { title: "MS, International Business", meta: "Hult International Business School, San Francisco · 2017 - 2018" },
+    { title: "Bachelor’s, Computer Engineering", meta: "B.M.S. College of Engineering, Bengaluru · 2010 - 2014" },
   ],
 
   // What you are working on right now.

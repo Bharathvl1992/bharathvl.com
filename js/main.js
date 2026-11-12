@@ -9,7 +9,7 @@ const { gsap, ScrollTrigger } = window;
 gsap.registerPlugin(ScrollTrigger);
 
 // ── render content ──────────────────────────────────────
-document.title = `${C.name} — ${C.role}`;
+document.title = `${C.name} | ${C.role}`;
 $("#preMark").textContent = C.initials;
 $("#navLogo").textContent = C.initials;
 $("#navStatusText").textContent = C.availability;

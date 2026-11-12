@@ -1,7 +1,7 @@
 import * as THREE from "three";
 
 // A quiet globe: coastlines, the three cities of the career so far, and
-// parcels moving along the routes between them — supply chain, in one picture.
+// parcels moving along the routes between them: supply chain in one picture.
 // `state` is tweened from main.js by scroll: { x, y, scale, lon, dim }
 const CITIES = [
   { name: "Bengaluru", note: "Home · Manhattan Associates", lat: 12.97, lon: 77.59 },

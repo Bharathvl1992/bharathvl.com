@@ -105,7 +105,7 @@ export const content = {
       blurb:
         "The company I founded for the Google Cloud AI Builder Cup 2026. Its product is a domain-neutral adaptive-reasoning runtime for AI agents, where the model proposes and deterministic policy decides, with a retail pack for custom team apparel as its first domain.",
       tags: ["Gemini", "Cloud Run", "Firestore", "Python"],
-      link: "",
+      link: "https://www.zarintelligence.com/",
     },
     {
       name: "Store6",
@@ -115,7 +115,7 @@ export const content = {
       blurb:
         "A venture I founded to try something new as a founder, built slowly and deliberately: corporate tournaments, with customisation and more around them.",
       tags: ["Corporate Tournaments", "Customisation"],
-      link: "",
+      link: "https://www.store6.co.in/",
     },
   ],
 
@@ -143,6 +143,8 @@ export const content = {
       name: "Prompt Your Jersey",
       stage: "AI Builder Cup task",
       note: "A competition challenge, not a company: use AI to design a jersey, with the best jersey winning.",
+      link: "https://lnkd.in/p/g8HVBVgF",
+      linkLabel: "See the LinkedIn post",
     },
   ],
 

@@ -59,6 +59,7 @@ $("#labList").innerHTML = C.lab.map((l) => `
   <div class="lab__row">
     <h3>${esc(l.name)} <span>${esc(l.stage)}</span></h3>
     <p>${esc(l.note)}</p>
+    ${l.link ? `<a class="card__link" href="${esc(l.link)}" target="_blank" rel="noopener">${esc(l.linkLabel ?? "Visit")} →</a>` : ""}
   </div>`).join("");
 
 $("#marquee").innerHTML = C.skills.map((row) => {

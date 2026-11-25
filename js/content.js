@@ -99,11 +99,11 @@ export const content = {
     },
     {
       name: "ZAR Intelligence",
-      status: "building",
+      status: "live",
       year: "2026",
       role: "Founder",
       blurb:
-        "The company I founded for the Google Cloud AI Builder Cup 2026. Its product is a domain-neutral adaptive-reasoning runtime for AI agents, where the model proposes and deterministic policy decides, with a retail pack for custom team apparel as its first domain.",
+        "The company I founded for the Google Cloud AI Builder Cup 2026. Its first product, ZAR Retail, is complete and live: six AI agents take a custom apparel order from first message to confirmed quote, where the model proposes, deterministic policy decides and every decision is on record. Packs for more domains are in progress.",
       tags: ["Gemini", "Cloud Run", "Firestore", "Python"],
       link: "https://www.zarintelligence.com/",
     },
@@ -134,6 +134,13 @@ export const content = {
 
   // What you are working on right now.
   lab: [
+    {
+      name: "ZAR domain packs",
+      stage: "In development",
+      note: "Taking ZAR beyond retail, with packs for logistics, banking and finance, healthcare, hospitality and manufacturing.",
+      link: "https://www.zarintelligence.com/",
+      linkLabel: "See ZAR Intelligence",
+    },
     {
       name: "ZAR Core 3",
       stage: "Working prototype",

@@ -143,7 +143,7 @@ export const content = {
     },
     {
       name: "ZAR Core 3",
-      stage: "Working prototype",
+      stage: "Live",
       note: "Workflow engine, policy layer and decision plugins (Bayes, conformal, Monte Carlo, value of information).",
     },
     {

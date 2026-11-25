@@ -103,7 +103,7 @@ export const content = {
       year: "2026",
       role: "Founder",
       blurb:
-        "The company I founded for the Google Cloud AI Builder Cup 2026. Its first product, ZAR Retail, is complete and live: six AI agents take a custom apparel order from first message to confirmed quote, where the model proposes, deterministic policy decides and every decision is on record. Packs for more domains are in progress.",
+        "The company I founded for the Google Cloud AI Builder Cup 2026. Its first product, ZAR Retail, is complete and live: six AI agents take a custom apparel order from first message to confirmed quote, where the model proposes, deterministic policy decides and every decision is on record. Also live is ZAR Core 3, a workflow engine and policy layer with decision plugins (Bayes, conformal, Monte Carlo, value of information). Packs for more domains are in progress.",
       tags: ["Gemini", "Cloud Run", "Firestore", "Python"],
       link: "https://www.zarintelligence.com/",
     },
@@ -140,11 +140,6 @@ export const content = {
       note: "Taking ZAR beyond retail, with packs for logistics, banking and finance, healthcare, hospitality and manufacturing.",
       link: "https://www.zarintelligence.com/",
       linkLabel: "See ZAR Intelligence",
-    },
-    {
-      name: "ZAR Core 3",
-      stage: "Live",
-      note: "Workflow engine, policy layer and decision plugins (Bayes, conformal, Monte Carlo, value of information).",
     },
     {
       name: "Prompt Your Jersey",
